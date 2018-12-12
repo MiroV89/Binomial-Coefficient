@@ -1,10 +1,3 @@
-/* 
- * Nombre: Miroslav Krasimirov Vladimirov
- * email: mkrasimir4@alumno.uned.es / miro.kv89@gmail.com
- * NIE: X4780953N
- * tlfn: 676867565   
- */
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -25,7 +18,7 @@ public class coefbin{
             f_entrada=select;
         }
         if(f_entrada.isEmpty())System.out.println("Seleccione archivo de entrada");
-        //Solo se permitiran archivos con formato *.txt, en caso de que no se ponga expresamente se aÒadira por el programa.
+        //Solo se permitiran archivos con formato *.txt, en caso de que no se ponga expresamente se a√±adira por el programa.
         if(!f_entrada.endsWith(".txt"))f_entrada=f_entrada+".txt";
         if(!f_salida.isEmpty() && !f_salida.endsWith(".txt"))f_salida=f_salida+".txt";
         
@@ -33,7 +26,7 @@ public class coefbin{
         if (help){
             System.out.println("SINTAXIS:");
             System.out.println("servicio [-t] [-h] [fichero_entrada] [fichero_salida]");
-            System.out.println("-t\t\t\t Traza la construcciÛn del tri·ngulo de Pascal");
+            System.out.println("-t\t\t\t Traza la construcci√≥n del tri√°ngulo de Pascal");
             System.out.println("-h\t\t\t Muestra esta ayuda");
             System.out.println("fichero_entrada\t\t Nombre del fiechero de entrada");
             System.out.println("fichero_salida\t\t Nombre del fichero de salida");
