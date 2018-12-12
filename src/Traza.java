@@ -1,9 +1,3 @@
-/* 
- * Nombre: Miroslav Krasimirov Vladimirov
- * email: mkrasimir4@alumno.uned.es / miro.kv89@gmail.com
- * NIE: X4780953N
- * tlfn: 676867565   
- */
 import javax.swing.JTable;
 import javax.swing.JScrollPane;
 import javax.swing.JFrame;
