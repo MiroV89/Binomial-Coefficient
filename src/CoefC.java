@@ -1,9 +1,4 @@
-/* 
- * Nombre: Miroslav Krasimirov Vladimirov
- * email: mkrasimir4@alumno.uned.es / miro.kv89@gmail.com
- * NIE: X4780953N
- * tlfn: 676867565   
- */
+
 import java.math.BigInteger;
 public class CoefC implements Coef {
     //Implementacion con menor coste, pero sin traza
